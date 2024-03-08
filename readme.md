@@ -38,25 +38,26 @@ Sebuah topik yang sangat mudah membuat orang bingung. Disini saya mencoba membua
 
 <br>
 
-Introduction
+Perkenalan
 =================
 
-Design patterns are solutions to recurring problems; **guidelines on how to tackle certain problems**. They are not classes, packages or libraries that you can plug into your application and wait for the magic to happen. These are, rather, guidelines on how to tackle certain problems in certain situations.
+Design patterns adalah solusi-solusi untuk masalah yang berulang; **panduan tentang cara mengatasi masalah tertentu**. Mereka bukan sebuah class, package atau library yang bisa di pasangkan ke aplikasi Anda kemudian tinggal menunggu keajaiban terjadi. Mereka itu lebih merupakan panduan tentang bagaimana mengatasi masalah tertentu dalam situasi tertentu.
 
-> Design patterns are solutions to recurring problems; guidelines on how to tackle certain problems
+> Design patterns adalah solusi-solusi untuk masalah yang berulang; **panduan tentang cara mengatasi masalah tertentu**
 
-Wikipedia describes them as
+[Wikipedia](https://id.wikipedia.org/wiki/Pola_desain) mendeskripsikannya sebagai:
 
-> In software engineering, a software design pattern is a general reusable solution to a commonly occurring problem within a given context in software design. It is not a finished design that can be transformed directly into source or machine code. It is a description or template for how to solve a problem that can be used in many different situations.
+> Pola desain atau pola rancangan (bahasa Inggris: design pattern) adalah sebuah istilah di dalam rekayasa perangkat lunak yang mengacu pada solusi umum yang bisa dipergunakan kembali atau berulang-ulang untuk menyelesaikan masalah-masalah yang umum terjadi dalam konteks tertentu atau khusus yang ditemui pada desain perangkat lunak.
 
-⚠️ Be Careful
+⚠️ Hati - Hati
 -----------------
-- Design patterns are not a silver bullet to all your problems.
-- Do not try to force them; bad things are supposed to happen, if done so.
-- Keep in mind that design patterns are solutions **to** problems, not solutions **finding** problems; so don't overthink.
+- Design patterns bukanlah palu-gada untuk semua masalahmu.
+- Jangan coba untuk memaksakan menggunakan mereka; hal-hal buruk akan terjadi jika hal itu dilakukan.
+- Selalu ingat bahwa design patterns adalah solusi-solusi **untuk** sebuah masalah, bukan solusi-solusi untuk **mencari** sebuah masalah; jadi jangan terlalu dipusingkan.
 - If used in a correct place in a correct manner, they can prove to be a savior; or else they can result in a horrible mess of a code.
+- Jika digunakan dengan benar, mereka dapat menjadi penyelamat; jika tidak, mereka dapat mengakibatkan kekacauan kode yang mengerikan.
 
-> Also note that the code samples below are in PHP-7, however this shouldn't stop you because the concepts are same anyways.
+> Contoh kode di bawah ini menggunakan PHP-7, namun hal ini tidak akan menghentikan Anda karena konsepnya sama.
 
 Types of Design Patterns
 -----------------
