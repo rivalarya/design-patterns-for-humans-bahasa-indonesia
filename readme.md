@@ -6,7 +6,7 @@
 ***
 
 <p align="center">
-🎉 Penjelasan yang sangat disederhanakan untuk pola desain! 🎉
+🎉 Penjelasan yang sangat disederhanakan untuk design patterns! 🎉
 </p>
 <p align="center">
 Sebuah topik yang sangat mudah membuat orang bingung. Disini saya mencoba membuat<br> topik-topik itu menempel pada kepalamu (dan mungkin kepalaku) dengan menjelaskannya se-<i>sederhana</i> mungkin.
@@ -16,7 +16,10 @@ Sebuah topik yang sangat mudah membuat orang bingung. Disini saya mencoba membua
 
 <sub>Lihat [Projek saya yang lain](http://roadmap.sh) dan sapa saya di [Twitter](https://twitter.com/kamranahmedse).</sub>
 <br>
-<sub>Translator [Rival Arya](https://www.linkedin.com/in/rival-arya/)</sub>
+<sub>Translator [Rival Arya](https://www.linkedin.com/in/rival-arya/).</sub>
+
+## Catatan Translator
+> Saya tidak akan menerjemahkan beberapa istilah yang ada untuk mengurangi maksud yang hilang saat proses penerjemahan.
 
 <br>
 
