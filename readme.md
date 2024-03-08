@@ -9,8 +9,7 @@
 🎉 Penjelasan yang sangat disederhanakan untuk pola desain! 🎉
 </p>
 <p align="center">
-Sebuah topik yang sangat mudah membuat orang bingung. Disini saya mencoba membuat topik-topik itu menempel pada kepalamu<br>
-  (dan mungkin kepalaku) dengan menjelaskannya se-<i>sederhana</i> mungkin. 
+Sebuah topik yang sangat mudah membuat orang bingung. Disini saya mencoba membuat topik-topik itu menempel pada kepalamu<br> (dan mungkin kepalaku) dengan menjelaskannya se-<i>sederhana</i> mungkin. 
 </p>
 
 ***
