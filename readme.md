@@ -9,12 +9,14 @@
 🎉 Penjelasan yang sangat disederhanakan untuk pola desain! 🎉
 </p>
 <p align="center">
-Sebuah topik yang sangat mudah membuat orang bingung. Disini saya mencoba membuat topik-topik itu menempel pada kepalamu<br> (dan mungkin kepalaku) dengan menjelaskannya se-<i>sederhana</i> mungkin. 
+Sebuah topik yang sangat mudah membuat orang bingung. Disini saya mencoba membuat<br> topik-topik itu menempel pada kepalamu (dan mungkin kepalaku) dengan menjelaskannya se-<i>sederhana</i> mungkin.
 </p>
 
 ***
 
-<sub>Check out my [other project](http://roadmap.sh) and say "hi" on [Twitter](https://twitter.com/kamranahmedse).</sub>
+<sub>Lihat [Projek saya yang lain](http://roadmap.sh) dan sapa saya di [Twitter](https://twitter.com/kamranahmedse).</sub>
+<br>
+<sub>Translator [Rival Arya](https://www.linkedin.com/in/rival-arya/)</sub>
 
 <br>
 
@@ -47,7 +49,7 @@ Wikipedia describes them as
 ⚠️ Be Careful
 -----------------
 - Design patterns are not a silver bullet to all your problems.
-- Do not try to force them; bad things are supposed to happen, if done so. 
+- Do not try to force them; bad things are supposed to happen, if done so.
 - Keep in mind that design patterns are solutions **to** problems, not solutions **finding** problems; so don't overthink.
 - If used in a correct place in a correct manner, they can prove to be a savior; or else they can result in a horrible mess of a code.
 
@@ -352,7 +354,7 @@ $door->getDescription();  // Output: I am an iron door
 $expert->getDescription(); // Output: I can only fit iron doors
 ```
 
-As you can see the wooden door factory has encapsulated the `carpenter` and the `wooden door` also iron door factory has encapsulated the `iron door` and `welder`. And thus it had helped us make sure that for each of the created door, we do not get a wrong fitting expert.   
+As you can see the wooden door factory has encapsulated the `carpenter` and the `wooden door` also iron door factory has encapsulated the `iron door` and `welder`. And thus it had helped us make sure that for each of the created door, we do not get a wrong fitting expert.
 
 **When to use?**
 
@@ -817,7 +819,7 @@ class Developer implements Employee
     protected $salary;
     protected $name;
     protected $roles;
-    
+
     public function __construct(string $name, float $salary)
     {
         $this->name = $name;
@@ -1528,7 +1530,7 @@ Command pattern can also be used to implement a transaction based system. Where 
 --------
 
 Real world example
-> An old radio set will be a good example of iterator, where user could start at some channel and then use next or previous buttons to go through the respective channels. Or take an example of MP3 player or a TV set where you could press the next and previous buttons to go through the consecutive channels or in other words they all provide an interface to iterate through the respective channels, songs or radio stations.  
+> An old radio set will be a good example of iterator, where user could start at some channel and then use next or previous buttons to go through the respective channels. Or take an example of MP3 player or a TV set where you could press the next and previous buttons to go through the consecutive channels or in other words they all provide an interface to iterate through the respective channels, songs or radio stations.
 
 In plain words
 > It presents a way to access the elements of an object without exposing the underlying presentation.
@@ -1649,7 +1651,7 @@ Here is the simplest example of a chat room (i.e. mediator) with users (i.e. col
 First of all, we have the mediator i.e. the chat room
 
 ```php
-interface ChatRoomMediator 
+interface ChatRoomMediator
 {
     public function showMessage(User $user, string $message);
 }
@@ -1794,7 +1796,7 @@ $editor->getContent(); // This is the first sentence. This is second.
 😎 Observer
 --------
 Real world example
-> A good example would be the job seekers where they subscribe to some job posting site and they are notified whenever there is a matching job opportunity.   
+> A good example would be the job seekers where they subscribe to some job posting site and they are notified whenever there is a matching job opportunity.
 
 In plain words
 > Defines a dependency between objects so that whenever an object changes its state, all its dependents are notified.
@@ -1980,7 +1982,7 @@ $dolphin = new Dolphin();
 
 $speak = new Speak();
 
-$monkey->accept($speak);    // Ooh oo aa aa!    
+$monkey->accept($speak);    // Ooh oo aa aa!
 $lion->accept($speak);      // Roaaar!
 $dolphin->accept($speak);   // Tuut tutt tuutt!
 ```
@@ -2102,7 +2104,7 @@ $sorter->sort($bigdataset); // Output : Sorting using quick sort
 💢 State
 -----
 Real world example
-> Imagine you are using some drawing application, you choose the paint brush to draw. Now the brush changes its behavior based on the selected color i.e. if you have chosen red color it will draw in red, if blue then it will be in blue etc.  
+> Imagine you are using some drawing application, you choose the paint brush to draw. Now the brush changes its behavior based on the selected color i.e. if you have chosen red color it will draw in red, if blue then it will be in blue etc.
 
 In plain words
 > It lets you change the behavior of a class when the state changes.
