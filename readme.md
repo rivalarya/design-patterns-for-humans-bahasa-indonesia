@@ -6,10 +6,11 @@
 ***
 
 <p align="center">
-🎉 Ultra-simplified explanation to design patterns! 🎉
+🎉 Penjelasan yang sangat disederhanakan untuk pola desain! 🎉
 </p>
 <p align="center">
-A topic that can easily make anyone's mind wobble. Here I try to make them stick in to your<br> mind (and maybe mine) by explaining them in the <i>simplest</i> way possible.
+Sebuah topik yang sangat mudah membuat orang bingung. Disini saya mencoba membuat topik-topik itu menempel pada kepalamu<br>
+  (dan mungkin kepalaku) dengan menjelaskannya se-<i>sederhana</i> mungkin. 
 </p>
 
 ***
