@@ -59,7 +59,7 @@ Design patterns adalah solusi-solusi untuk masalah yang berulang; **panduan tent
 
 > Contoh kode di bawah ini menggunakan PHP-7, namun hal ini tidak akan menghentikan Anda karena konsepnya sama.
 
-Types of Design Patterns
+Tipe-Tipe Design Patterns
 -----------------
 
 * [Creational](#creational-design-patterns)
@@ -69,11 +69,11 @@ Types of Design Patterns
 Creational Design Patterns
 ==========================
 
-In plain words
-> Creational patterns are focused towards how to instantiate an object or group of related objects.
+Sederhananya
+> Creational patterns adalah pola desain yang difokuskan pada bagaimana cara menginstansiasi sebuah objek atau sekelompok objek terkait.
 
-Wikipedia says
-> In software engineering, creational design patterns are design patterns that deal with object creation mechanisms, trying to create objects in a manner suitable to the situation. The basic form of object creation could result in design problems or added complexity to the design. Creational design patterns solve this problem by somehow controlling this object creation.
+Menurut Wikipedia
+> Dalam rekayasa perangkat lunak, pola desain kreasi(Creational Design Patterns) adalah pola desain yang berurusan dengan mekanisme pembuatan objek, mencoba membuat objek dengan cara yang sesuai dengan situasi. Bentuk dasar pembuatan objek dapat mengakibatkan masalah desain atau menambah kompleksitas pada desain. Pola desain kreasi memecahkan masalah ini dengan cara mengendalikan pembuatan objek ini.
 
  * [Simple Factory](#-simple-factory)
  * [Factory Method](#-factory-method)
