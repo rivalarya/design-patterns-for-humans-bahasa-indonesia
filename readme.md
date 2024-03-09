@@ -84,18 +84,18 @@ Menurut Wikipedia
 
 🏠 Simple Factory
 --------------
-Real world example
-> Consider, you are building a house and you need doors. You can either put on your carpenter clothes, bring some wood, glue, nails and all the tools required to build the door and start building it in your house or you can simply call the factory and get the built door delivered to you so that you don't need to learn anything about the door making or to deal with the mess that comes with making it.
+Contoh di dunia nyata
+> Bayangkan, Anda sedang membangun sebuah rumah dan Anda membutuhkan pintu. Anda bisa memakai pakaian tukang kayu, membawa kayu, lem, paku, dan semua peralatan yang diperlukan untuk membuat pintu dan mulai membuatnya di rumah Anda atau Anda bisa menelepon pabrik dan meminta pintu yang sudah jadi dikirimkan kepada Anda sehingga Anda tidak perlu mempelajari apa pun tentang pembuatan pintu atau berurusan dengan kekacauan yang muncul saat membuatnya.
 
-In plain words
-> Simple factory simply generates an instance for client without exposing any instantiation logic to the client
+Sederhananya
+> Simple factory menghasilkan sebuah instansiasi(instance) untuk klien tanpa mengekspos logika inisialisasi apa pun kepada klien
 
-Wikipedia says
-> In object-oriented programming (OOP), a factory is an object for creating other objects – formally a factory is a function or method that returns objects of a varying prototype or class from some method call, which is assumed to be "new".
+Menurut Wikipedia
+> Dalam pemrograman berbasis objek (OOP), sebuah pabrik adalah sebuah objek untuk membuat objek yang lain - secara formal sebuah pabrik adalah sebuah fungsi atau metode yang mengembalikan objek dari prototipe atau kelas yang berbeda-beda dari beberapa pemanggilan metode, yang diasumsikan sebagai "new".
 
-**Programmatic Example**
+**Contoh Program**
 
-First of all we have a door interface and the implementation
+Pertama-tama kita punya sebuah interface pintu dan impelementasinya
 ```php
 interface Door
 {
@@ -125,7 +125,7 @@ class WoodenDoor implements Door
     }
 }
 ```
-Then we have our door factory that makes the door and returns it
+Kemudian kita punya pabrik pintu yang membuat pintu dan mengembalikannya
 ```php
 class DoorFactory
 {
@@ -135,21 +135,21 @@ class DoorFactory
     }
 }
 ```
-And then it can be used as
+Dan kemudian pabrik itu bisa digunakan seperti
 ```php
-// Make me a door of 100x200
+// Buatkan saya pintu berukuran 100x200
 $door = DoorFactory::makeDoor(100, 200);
 
-echo 'Width: ' . $door->getWidth();
-echo 'Height: ' . $door->getHeight();
+echo 'Lebar: ' . $door->getWidth();
+echo 'Tinggi: ' . $door->getHeight();
 
-// Make me a door of 50x100
+// Buatkan saya pintu berukuran 50x100
 $door2 = DoorFactory::makeDoor(50, 100);
 ```
 
-**When to Use?**
+**Kapan menggunakan design pattern ini?**
 
-When creating an object is not just a few assignments and involves some logic, it makes sense to put it in a dedicated factory instead of repeating the same code everywhere.
+Ketika membuat sebuah objek yang punya banyak penugasan dan logikanya terus bertambah, sangat masuk akal untuk membuatnya menjadi sebuah pabrik daripada mengulang terus-menerus kode yang sama dimana-mana.
 
 🏭 Factory Method
 --------------
